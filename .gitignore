@@ -1,0 +1,42 @@
+# compiled output
+/static/fimpui/dist
+/static/fimpui/tmp
+
+# dependencies
+/static/fimpui/node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/static/fimpui/.sass-cache
+/static/fimpui/connect.lock
+/static/fimpui/coverage/*
+/static/fimpui/libpeerconnection.log
+npm-debug.log
+testem.log
+/static/fimpui/typings
+
+# e2e
+/static/fimpui/e2e/*.js
+/static/fimpui/e2e/*.map
+
+#System Files
+.DS_Store
+Thumbs.db
+vendor/golang.org/x
+debian/opt/fimpui/static
+var/flow_storage
+*.deb

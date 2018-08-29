@@ -140,9 +140,6 @@ func main() {
 	if err == nil {
 		sysInfo.Version = string(versionFile)
 	}
-	//--------VINCULUM PROXY----------------
-	coreUrl := "ws://" + configs.VinculumAddress
-	go startWsCoreProxy(coreUrl)
 	//--------------------------------------
 	var brokerAddress string
 	var isSSL bool
