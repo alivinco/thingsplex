@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="08feb282-6f45-4ccd-9045-52e5716958f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/config.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/config.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/var/config_local.json" beforeDir="false" afterPath="$PROJECT_DIR$/var/config_local.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,9 +66,9 @@
         <counts>
           <entry key="LICENSE" value="1" />
           <entry key="Makefile" value="1" />
-          <entry key="go" value="18" />
+          <entry key="go" value="19" />
           <entry key="html" value="3" />
-          <entry key="json" value="2" />
+          <entry key="json" value="4" />
           <entry key="mod" value="4" />
           <entry key="py" value="2" />
           <entry key="sum" value="1" />
@@ -76,9 +78,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DTD" value="4" />
-          <entry key="Go" value="18" />
+          <entry key="Go" value="19" />
           <entry key="HTML" value="3" />
-          <entry key="JSON" value="2" />
+          <entry key="JSON" value="4" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="TypeScript" value="4" />
         </counts>
@@ -92,15 +94,17 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Makefile" value="59" />
-          <entry key="go" value="31" />
+          <entry key="go" value="33" />
           <entry key="html" value="42" />
+          <entry key="json" value="6" />
           <entry key="ts" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="31" />
+          <entry key="Go" value="33" />
           <entry key="HTML" value="42" />
+          <entry key="JSON" value="6" />
           <entry key="PLAIN_TEXT" value="59" />
           <entry key="TypeScript" value="3" />
         </counts>
@@ -109,20 +113,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/fimpui/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -175,21 +170,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/fimpui/src/app/app.component.ts">
+        <entry file="file://$PROJECT_DIR$/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#42#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="585">
+              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Makefile">
+        <entry file="file://$PROJECT_DIR$/debian/opt/thingsplex/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/var/config_local.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/config.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -234,6 +245,9 @@
         <option value="$PROJECT_DIR$/static/fimpui/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/static/fimpui/src/app/zwave-man/zwave-man.component.ts" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/debian/opt/thingsplex/config.json" />
+        <option value="$PROJECT_DIR$/var/config_local.json" />
+        <option value="$PROJECT_DIR$/model/config.go" />
       </list>
     </option>
   </component>
@@ -252,7 +266,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="29" />
+    <option name="y" value="25" />
     <option name="width" value="1920" />
     <option name="height" value="1177" />
   </component>
@@ -268,6 +283,11 @@
             <path>
               <item name="thingsplex" type="b2602c69:ProjectViewProjectNode" />
               <item name="thingsplex" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thingsplex" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thingsplex" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -333,7 +353,8 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1177" extended-state="0" />
+    <frame x="29" y="25" width="1920" height="1177" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8204804" visible="true" weight="0.27316293" />
       <window_info id="Structure" order="1" sideWeight="0.1795196" side_tool="true" visible="true" weight="0.27316293" />
@@ -379,13 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -452,41 +466,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/integr/zwave/products.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integr/fhcore/cli/tclient.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integr/fhcore/adapter.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integr/fhcore/model.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integr/fhcore/vinculum.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#16#160#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/integr/fhcore/ws_proxy.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/integr/zwave/products.go" />
+    <entry file="file://$PROJECT_DIR$/integr/fhcore/cli/tclient.go" />
+    <entry file="file://$PROJECT_DIR$/integr/fhcore/adapter.go" />
+    <entry file="file://$PROJECT_DIR$/integr/fhcore/model.go" />
+    <entry file="file://$PROJECT_DIR$/integr/fhcore/vinculum.go" />
+    <entry file="file://$PROJECT_DIR$/integr/fhcore/ws_proxy.go" />
     <entry file="file://$PROJECT_DIR$/integr/mqtt/mqtt_packet.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/integr/mqtt/mqtt_ws_proxy.go">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/process/datamigration.go">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/process/datamigration.go" />
     <entry file="file://$PROJECT_DIR$/static/fimpui/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -540,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/config_env.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -556,7 +541,35 @@
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debian/opt/thingsplex/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/config_local.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
