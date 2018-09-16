@@ -7,7 +7,7 @@ import (
 
 	influx "github.com/influxdata/influxdb/client/v2"
 	"github.com/alivinco/fimpgo"
-	"github.com/alivinco/thingsplex/registry"
+	"github.com/alivinco/tpflow/registry"
 )
 
 // Transform defines function which converts IotMsg into influx data point

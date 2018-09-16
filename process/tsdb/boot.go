@@ -11,7 +11,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	"github.com/labstack/echo"
 	"github.com/alivinco/thingsplex/model"
-	"github.com/alivinco/thingsplex/registry"
+	"github.com/alivinco/tpflow/registry"
 )
 
 // Integration is root level container
